@@ -58,5 +58,4 @@ def update_counting_hash(hash, key)
     puts hash.keys
   end
 end
-
-(update_counting_hash({},'hello'))
+update_counting_hash({},'hello')
