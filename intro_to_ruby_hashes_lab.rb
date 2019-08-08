@@ -39,9 +39,7 @@ my_hash_creator(:name, "Najraah")
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
-  hash_new = {
-
-  }
+  hash_new
 end
 read_from_hash( {:name => 'JP',:age => 23}, :name)
 
