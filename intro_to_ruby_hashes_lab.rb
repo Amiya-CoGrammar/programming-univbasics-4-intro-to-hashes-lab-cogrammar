@@ -25,7 +25,6 @@ end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
-
   hash_id = { :key1 => 'value1',
         :key2 => 'value2',
         :key3 => 'value3'
