@@ -30,7 +30,7 @@ def id_generator
         :key2 => 'value2',
         :key3 => 'value3'
       }
-  returns hash_id
+  return hash_id
 end
 
 def my_hash_creator(key, value)
