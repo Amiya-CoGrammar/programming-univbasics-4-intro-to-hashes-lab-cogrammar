@@ -51,11 +51,9 @@ def update_counting_hash(hash, key)
   if hash.has_key?(key)
     hash[key] += 1
     return hash
-    puts hash.keys
   else
     hash[key] = 1
     return hash
-    puts hash.keys
   end
 end
 update_counting_hash({},'hello')
